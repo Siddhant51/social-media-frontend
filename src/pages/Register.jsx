@@ -47,7 +47,7 @@ const Register = () => {
             className='py-8 flex flex-col gap-5'
             onSubmit={handleSubmit(onSubmit)}
           >
-            <div className='w-full flex flex-col lg:flex-row gap-1 md:gap-2'>
+            <div className='w-full flex flex-row gap-1 md:gap-2'>
               <TextInput
                 name='firstName'
                 label='First Name'
@@ -84,7 +84,7 @@ const Register = () => {
               error={errors.email ? errors.email.message : ""}
             />
 
-            <div className='w-full flex flex-col lg:flex-row gap-1 md:gap-2'>
+            <div className='w-full flex flex-row gap-1 md:gap-2'>
               <TextInput
                 name='password'
                 label='Password'
